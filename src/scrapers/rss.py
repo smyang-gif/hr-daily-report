@@ -1,5 +1,6 @@
 """RSS feed scraper implementation."""
 
+import asyncio
 import calendar
 import hashlib
 import logging
@@ -7,7 +8,7 @@ import os
 import re
 from datetime import datetime, timezone
 from typing import List, Optional
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 from email.utils import parsedate_to_datetime
 import httpx
 import feedparser
@@ -17,6 +18,30 @@ from ..extractors import ExtractorRegistry
 from ..models import ContentItem, SourceType, RSSSourceConfig
 
 logger = logging.getLogger(__name__)
+
+# Per-feed parallelism for link resolution and full-text extraction.
+ENTRY_CONCURRENCY = 6
+
+
+async def resolve_google_news_url(link: str) -> str:
+    """Return the publisher URL behind a Google News article link.
+
+    Falls back to the original link on any failure so a decoding outage only
+    costs the article body, never the item itself.
+    """
+    try:
+        from googlenewsdecoder import gnewsdecoder
+    except ImportError:
+        return link
+    try:
+        result = await asyncio.to_thread(gnewsdecoder, link, 0)
+    except Exception as e:
+        logger.debug("Google News decode failed for %s: %s", link, e)
+        return link
+    decoded = result.get("decoded_url") if isinstance(result, dict) else None
+    if result.get("success") and isinstance(decoded, str) and decoded.startswith(("http://", "https://")):
+        return decoded
+    return link
 
 BROWSER_HEADERS = {
     "User-Agent": (
@@ -101,38 +126,41 @@ class RSSScraper(BaseScraper):
             # Parse feed
             feed = feedparser.parse(response.text)
 
-            for entry in feed.entries:
-                # Parse published date
+            feed_id = str(source.url).split("//")[1].replace("/", "_")
+            extractor = (
+                self._extractors.get(source.content_extractor)
+                if source.content_extractor and self._extractors
+                else None
+            )
+            semaphore = asyncio.Semaphore(ENTRY_CONCURRENCY)
+
+            async def build(entry) -> Optional[ContentItem]:
                 published_at = self._parse_date(entry)
                 if not published_at or published_at < since:
-                    continue
+                    return None
 
                 # Resolve relative links against the feed URL; one bad entry
                 # must not discard the rest of the feed.
                 link = urljoin(str(response.url), entry.get("link", "") or "")
                 if not link.startswith(("http://", "https://")):
-                    continue
+                    return None
 
-                # Generate unique ID from feed URL and entry ID
-                feed_id = str(source.url).split("//")[1].replace("/", "_")
                 entry_id = entry.get("id", entry.get("link", ""))
-                entry_hash = hashlib.sha256(str(entry_id).encode("utf-8")).hexdigest()[
-                    :16
-                ]
-
-                # Extract content
+                entry_hash = hashlib.sha256(str(entry_id).encode("utf-8")).hexdigest()[:16]
                 content = self._extract_content(entry)
 
-                if source.content_extractor and self._extractors:
-                    extractor = self._extractors.get(source.content_extractor)
+                async with semaphore:
+                    # Google News search feeds link to a redirect page with no
+                    # article text. Resolve the publisher URL so the reader gets
+                    # the original link and the extractor gets the real body.
+                    if urlsplit(link).hostname == "news.google.com":
+                        link = await resolve_google_news_url(link)
                     if extractor:
-                        url = link
-                        if url:
-                            full = await extractor.extract(url, self.client)
-                            if full:
-                                content = full
+                        full = await extractor.extract(link, self.client)
+                        if full:
+                            content = full
 
-                item = ContentItem(
+                return ContentItem(
                     id=self._generate_id("rss", feed_id, entry_hash),
                     source_type=SourceType.RSS,
                     title=entry.get("title", "Untitled"),
@@ -148,7 +176,16 @@ class RSSScraper(BaseScraper):
                         "tags": [tag.term for tag in entry.get("tags", [])],
                     },
                 )
-                items.append(item)
+
+            async def safe_build(entry) -> Optional[ContentItem]:
+                try:
+                    return await build(entry)
+                except Exception as e:
+                    logger.warning("Skipping entry in %s: %s", source.name, e)
+                    return None
+
+            built = await asyncio.gather(*(safe_build(e) for e in feed.entries))
+            items.extend(item for item in built if item is not None)
 
         except httpx.HTTPError as e:
             logger.warning("Error fetching RSS feed %s: %s", source.name, e)

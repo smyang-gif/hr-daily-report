@@ -22,6 +22,7 @@ dependencies = [
     "mcp>=1.0.0",
     "opencc-python-reimplemented>=0.1.7",
     "trafilatura>=2.1.0",
+    "googlenewsdecoder>=0.2.1",
 ]
 
 [project.optional-dependencies]
