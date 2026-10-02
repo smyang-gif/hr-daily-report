@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T02:35:58.744327+00:00",
+  "input_tokens": 853811,
+  "output_tokens": 124790,
+  "estimated_cost_usd": "1.702601",
+  "unknown_price_models": [],
+  "models": [
+    {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "input_tokens": 735726,
+      "output_tokens": 103439,
+      "estimated_cost_usd": "1.252921"
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-5",
+      "input_tokens": 118085,
+      "output_tokens": 21351,
+      "estimated_cost_usd": "0.449680"
+    }
+  ]
+}
