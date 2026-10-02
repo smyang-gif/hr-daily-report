@@ -12,8 +12,7 @@
       "ko"
     ],
     "stage_models": {
-      "analysis": "claude-haiku-4-5",
-      "dedup": "claude-haiku-4-5"
+      "analysis": "claude-haiku-4-5"
     }
   },
   "processing": {

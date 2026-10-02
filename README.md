@@ -13,7 +13,7 @@ GitHub Actions (23:37 UTC = 08:37 KST, 실패 대비 10:17 KST 재시도)
           · HR Dive · HR Tech Feed · Personnel Today · ERE · Josh Bersin
           · Aptitude Research · Indeed Hiring Lab · Recruiting Brainfood · HBR · MIT SMR
   └─ 채점  Haiku 4.5 로 중요도 0~10 + 프로필 분류
-  └─ 선별  프로필별 임계값 통과분, 주제 중복 제거, 최대 20건
+  └─ 선별  프로필별 임계값 통과분, 주제 중복 제거(Sonnet 5), 최대 20건
   └─ 요약  Sonnet 5 로 한국어 요약
   └─ 산출  briefings/YYYY/MM/YYYY-MM-DD.md 커밋 + GitHub Pages 배포
 ```
