@@ -78,12 +78,15 @@ jobs:
         if: steps.guard.outputs.run == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Only needed for keys not scoped to a workspace; empty is ignored.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
         run: uv run python scripts/check-models.py
 
       - name: Run pipeline
         if: steps.guard.outputs.run == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
         run: |
           if [ -n "${{ inputs.hours }}" ]; then
             uv run python -m src.main --hours "${{ inputs.hours }}" --log-level INFO
