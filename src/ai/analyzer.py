@@ -192,9 +192,10 @@ class ContentAnalyzer:
 
         if result is None:
             logger.warning(
-                "Could not parse analysis response for %s after one repair attempt (%s), using defaults",
+                "Could not parse analysis response for %s after one repair attempt (%s), using defaults. Raw: %.300r",
                 item.id,
                 failure,
+                repair_response,
             )
             if item.processing:
                 item.processing.analysis = ContentAnalysis(

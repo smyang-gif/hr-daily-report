@@ -65,6 +65,23 @@ class ContentAnalysis(BaseModel):
     summary: str
     tags: List[str] = Field(default_factory=list)
 
+    @field_validator("summary", "reason", mode="before")
+    @classmethod
+    def coerce_text(cls, value: Any) -> Any:
+        """Accept sentence lists or language-keyed objects as plain text.
+
+        Smaller models sometimes return the multi-sentence Korean summary as a
+        list of sentences or as {"ko": "..."}. Rejecting those drops an
+        otherwise valid score, so flatten them instead.
+        """
+        if value is None:
+            return ""
+        if isinstance(value, list):
+            return " ".join(str(v).strip() for v in value if str(v).strip())
+        if isinstance(value, dict):
+            return " ".join(str(v).strip() for v in value.values() if str(v).strip())
+        return value
+
 
 class ArtifactSource(BaseModel):
     """External source used while producing an artifact."""
