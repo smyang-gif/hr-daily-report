@@ -51,3 +51,16 @@ def test_lower_scored_primary_does_not_win(monkeypatch) -> None:
 def test_unrelated_items_are_untouched(monkeypatch) -> None:
     kept = _run(monkeypatch, '{"duplicates": [[0, 2]]}', 4)
     assert kept == ["i0", "i1", "i3"]
+
+
+def test_same_url_from_two_feeds_is_collapsed(monkeypatch) -> None:
+    # Observed in production: one aitimes article arrived via two Google News
+    # feeds with different profile routes and was published twice.
+    import src.orchestrator as module
+
+    monkeypatch.setattr(module, "create_ai_client", lambda *a, **k: _FakeClient('{"duplicates": []}'))
+    a = make_item("a", 7.0, None)
+    b = make_item("b", 6.0, None)
+    b.url = a.url
+    kept = asyncio.run(_orchestrator().merge_topic_duplicates([a, b], log=False))
+    assert [item.id for item in kept] == ["a"]

@@ -688,6 +688,24 @@ class HorizonOrchestrator:
         if len(items) <= 1:
             return items
 
+        # The same article can arrive through two feeds with different profile
+        # routes, which keeps it out of the URL merge before analysis. Collapse
+        # exact URL matches here deterministically; items are score-sorted, so
+        # the first occurrence is the one to keep.
+        seen_urls: set[tuple[object, ...]] = set()
+        unique_items: List[ContentItem] = []
+        for item in items:
+            key = _deduplication_url_key(str(item.url))
+            if key in seen_urls:
+                if log:
+                    self.console.print(f"   [dim]dedup: drop same URL {item.title}[/dim]")
+                continue
+            seen_urls.add(key)
+            unique_items.append(item)
+        items = unique_items
+        if len(items) <= 1:
+            return items
+
         from .ai.prompting.deduplication import TOPIC_DEDUP_SYSTEM, TOPIC_DEDUP_USER
         from .ai.utils import parse_json_response
 
