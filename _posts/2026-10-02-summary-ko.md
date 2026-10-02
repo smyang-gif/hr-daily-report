@@ -5,51 +5,436 @@ date: 2026-10-02
 lang: ko
 ---
 
-> 수집한 406건 중 2건을 골랐습니다.
+> 수집한 406건 중 20건을 골랐습니다.
 
 ---
 
+**채용·인재시장 동향**
+1. [LinkedIn CEO 라이언 로슬랜스키, 연말 Microsoft 떠난다](#item-hr-news-1) ⭐️ 8.0/10
+2. [美 'AI 안전' 직군 채용수요 1년새 91% 급증](#item-hr-news-2) ⭐️ 7.0/10
+3. [美 기업 9월 감원계획 4만3천명…4년 만에 최저](#item-hr-news-3) ⭐️ 7.0/10
+4. [ICT 신입채용 3년새 반토막…소프트웨어는 신입 47%↓ 경력 127%↑](#item-hr-news-4) ⭐️ 7.0/10
+5. [MS, 오피스·팀즈 수장 퇴사시키고 조직을 Copilot 산하로 재편](#item-hr-news-5) ⭐️ 7.0/10
+6. [AI 채용 에이전트 Metaview, 6천만 달러 Series B 펀딩 유치](#item-hr-news-6) ⭐️ 7.0/10
+7. [LinkedIn, 차세대 AI 채용 에이전트 Hiring Assistant 2 발표](#item-hr-news-7) ⭐️ 7.0/10
+8. [KT, 소상공인 채용 플랫폼 '사장이지'에 AI면접 기능 도입](#item-hr-news-8) ⭐️ 6.0/10
+9. [英 기업들, AI 확산 속 이력서 중심 채용서 능력 중심 평가로 전환](#item-hr-news-9) ⭐️ 6.0/10
+10. [LH 결원 1년 반 새 8배 증가해 604명으로 확대](#item-hr-news-10) ⭐️ 6.0/10
+11. [日 대졸예정자 10명 중 8~9명 조기 취업…기업은 이직 우려](#item-hr-news-11) ⭐️ 6.0/10
+12. [인도 화이트칼라 채용시장, AI 채용 20% 이상 급증](#item-hr-news-12) ⭐️ 6.0/10
+13. [사무실 복귀 정책, 직원에게 연간 약 $6,700 비용 부담 분석](#item-hr-news-13) ⭐️ 6.0/10
+
 **노동정책·규제**
-1. [특사경 수사지휘 폐지, 노동부 수사심의위원회 신설](#item-hr-policy-1) ⭐️ 7.0/10
-2. [노동부, 하청노조 와해 의혹 우창코넥타 원청 압수수색](#item-hr-policy-2) ⭐️ 6.0/10
+1. [산업안전보건법 개정안 국회 통과, 반복 산재 기업에 영업이익 5% 과징금](#item-hr-policy-1) ⭐️ 8.0/10
+2. [특사경 수사지휘 폐지, 노동부 수사심의위 설치·운영](#item-hr-policy-2) ⭐️ 7.0/10
+3. [뉴저지주, AI 기반 전자 모니터링 규제 법안 상원 통과](#item-hr-policy-3) ⭐️ 7.0/10
+4. [캘리포니아, AI 관련 근로자 보호 법안 다수 서명](#item-hr-policy-4) ⭐️ 7.0/10
+5. [지역농협, 퇴사 후 1년간 동종 이직 제한…직업선택 자유 침해 논란](#item-hr-policy-5) ⭐️ 6.0/10
+6. [고용노동부, 고령자 계속고용장려금 확대…비수도권 월 40만원 지원](#item-hr-policy-6) ⭐️ 6.0/10
+
+**리서치·인사이트**
+1. [탤런트 인텔리전스의 미래: AI 기업들이 인재 전략에 던지는 교훈](#item-hr-insight-1) ⭐️ 7.0/10
+
+---
+
+## 채용·인재시장 동향
+
+<a id="item-hr-news-1"></a>
+### [LinkedIn CEO 라이언 로슬랜스키, 연말 Microsoft 떠난다](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vWW5qMWJDLUxFRG5kdmpkR2ZXU1lWa2dDTUxoWGxjYWplOWtfMUZmX1RtSEtHMFFpNFlEVnlGWUdBNFNOcUNwVi1WLWNHcFZMcm9J?oc=5) ⭐️ 8.0/10
+
+LinkedIn을 6년간 이끌어온 CEO 라이언 로슬랜스키\(Ryan Roslansky\)가 연말 Microsoft를 떠난다고 보도됐다. 그는 2020년부터 LinkedIn 수장을 맡아 채용, 광고, 콘텐츠 사업을 이끌어왔다. 후임자나 구체적 퇴임 사유, 향후 조직 개편 방향에 대해서는 보도된 내용에 자세히 언급되지 않았다.
+
+rss · Google News KR · HR테크 · 10월 1일 16:14
+
+**「배경」** 로슬랜스키는 2020년부터 LinkedIn CEO를 맡아 약 6년간 이끌어왔으며, 최근에는 Microsoft Office와 Teams 조직까지 총괄하는 역할로 승진했다. LinkedIn과 Microsoft에서 18년 가까이 근무한 그는 이번 발표로 연말 퇴사하며, 18년 경력을 마무리하게 됐다.
+
+**「시사점」** 세계 최대 채용 플랫폼인 LinkedIn의 리더십 교체는 AI 채용 기능, 데이터 정책, 플랫폼 전략의 방향 전환으로 이어질 수 있어 HR테크 업계와 채용 담당자들은 후속 인사 및 전략 발표를 주시할 필요가 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ryan_Roslansky">Ryan Roslansky - Wikipedia</a></li>
+<li><a href="https://www.fastcompany.com/91616962/linkedin-ceo-leaves-microsoft-citing-return-to-work-full-time-every-day-in-office-ryan-roslansky">Former LinkedIn CEO leaves Microsoft ... - Fast Company</a></li>
+<li><a href="https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving">Microsoft ’s Office and Teams chief is leaving | The Verge</a></li>
+
+</ul>
+</details>
+
+**태그**: `#linkedin`, `#leadership-change`, `#recruiting-platform`, `#hr-tech`, `#talent-acquisition`
+
+---
+
+<a id="item-hr-news-2"></a>
+### [美 'AI 안전' 직군 채용수요 1년새 91% 급증](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90aVZoQkZWVWhnMXNPczJKd25KYzRzOVk4Rlg2dnI0eklMd0diY2hWelF1QWdxM05HUDY3TDNQTW1Hdm5sMTZuNTZkZVhpRlZyRGp2blVQUjctZUpRMnU4UmZjUFhydUU?oc=5) ⭐️ 7.0/10
+
+LinkedIn 분석에 따르면 미국에서 'AI 안전\(AI safety\)' 관련 직군의 채용 공고가 최근 1년 새 91% 증가한 것으로 나타났다. 이는 전반적인 고용 한파 속에서도 AI 위험성에 대한 기업과 사회의 우려가 커지면서 나타난 틈새 성장 현상으로 분석된다. AI 모델의 안전성 검증, 위험 관리, 거버넌스를 담당하는 전문 인력에 대한 수요가 새로운 채용 카테고리로 부상하고 있다.
+
+rss · Google News KR · 채용·인재시장 · 10월 2일 00:16
+
+**「배경」** LinkedIn 데이터를 근거로 보도된 내용으로, AI 거버넌스·윤리·리스크 관리 등 기업의 AI 활용 확대에 따라 신설되고 있는 직무군을 'AI 안전' 직군으로 분류한 것이다. 전반적인 채용 한파 속에서도 AI 관련 리스크를 관리할 인력에 대한 수요만 예외적으로 증가하는 추세를 보여준다.
+
+**「시사점」** AI 거버넌스와 리스크 관리가 기업의 핵심 채용 영역으로 자리잡으면서, 채용 플랫폼과 인재 매칭 서비스는 'AI 안전' 관련 신규 직무 분류 체계와 해당 역량을 평가할 기준을 마련할 필요가 커졌다.
+
+**태그**: `#ai-hiring`, `#job-growth`, `#ai-safety`, `#talent-demand`, `#emerging-roles`
+
+---
+
+<a id="item-hr-news-3"></a>
+### [美 기업 9월 감원계획 4만3천명…4년 만에 최저](https://news.google.com/rss/articles/CBMidEFVX3lxTE8wM3l3d2NnUy1MVi0xRlJUNmJRMzBHSnloNmpfZ2lQMmdfSXRpY1RyS1NzNGpXVDN4VWNJV3BtQURxQVlOZTBxTzZGdWNiV0t3QjBTSm5uRDZjX3M3aU0xRTc1ZTlyUkIwbWRFNEZsdFo3eF92?oc=5) ⭐️ 7.0/10
+
+미국 기업들이 발표한 9월 감원 계획 인원이 4만3천명으로 집계되어 4년 만에 가장 작은 규모를 기록했다. 이는 최근 몇 달간 이어지던 대규모 구조조정 발표가 눈에 띄게 둔화됐음을 보여주는 수치다. 구체적인 집계 기관과 업종별 세부 내역은 원문에 명시되지 않았으나, 기업들의 인력 감축 속도가 전반적으로 완화되는 흐름으로 해석된다.
+
+rss · Google News KR · 채용·인재시장 · 10월 1일 13:47
+
+**「배경」** 이번 수치는 미국 아웃플레이스먼트 전문기관 Challenger, Gray &amp; Christmas가 집계하는 월간 감원계획 발표 통계로, 기업들이 공개 발표한 감원 계획 건수를 추적하는 지표다. tool-1-1에 따르면 9월 감원 발표는 4만3천281건으로 8월 대비 18%, 전년 동월 대비 20% 감소했다.
+
+**「시사점」** 감원 계획 축소는 기업들의 고용 불안 심리가 완화되고 있다는 신호로, 채용 시장에서 인재 공급이 다시 타이트해질 가능성을 시사한다. 채용 담당자와 인재 데이터 기업은 이 지표를 향후 채용 수요 회복 여부를 가늠하는 선행 지표로 주시할 필요가 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.linkedin.com/news/story/september-job-cuts-hit-a-4-year-low-but-that-may-not-be-good-news-7637212/">September job cuts hit a 4-year low — but that may not be good news</a></li>
+
+</ul>
+</details>
+
+**태그**: `#labor-market-data`, `#us-hiring-trends`, `#layoff-trends`, `#talent-supply`
+
+---
+
+<a id="item-hr-news-4"></a>
+### [ICT 신입채용 3년새 반토막…소프트웨어는 신입 47%↓ 경력 127%↑](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kLW1IWWlMNTh5bTZJN0R1X0hUbXVlLWRLaUVCanNhQnZIZTB5NVpheTgtTXUyRWlieGdWd21VbWk1WUFPUzR2RlpUMGRPMmR1NXU1aDRkbTNRcmxRcUNIQVBrUkxoOUdZc2ZOZQ?oc=5) ⭐️ 7.0/10
+
+국내 ICT 업계 신입 채용 규모가 최근 3년 사이 절반 수준으로 줄어든 것으로 나타났다. 특히 소프트웨어 분야에서는 1년 만에 신입 채용이 47% 감소한 반면, 경력직 채용은 127% 급증해 대조를 이뤘다. 이는 기업들이 교육·양성을 전제로 한 신입 공채 대신 즉시 실무 투입이 가능한 경력직 중심으로 채용 전략을 재편하고 있음을 보여준다.
+
+rss · Google News KR · 채용·인재시장 · 10월 1일 08:45
+
+**「배경」** AI발 채용 한파 속에 국내 ICT 신입 채용이 최근 3년 사이 절반 수준으로 줄었으며, 지난해에는 경력 채용 규모가 신입 채용을 넘어설 정도로 기업의 채용 전략이 변화하고 있다.
+
+**「시사점」** 신입 채용 축소와 경력직 수요 급증이 맞물리면서, 주니어 개발자 등 신입 구직자의 취업 문턱은 더 높아지고 기업 간 경력직 인재 확보 경쟁은 한층 치열해질 전망이다. 채용 플랫폼과 HR 기업 입장에서는 경력 매칭·레퍼런스 체크 등 경력직 중심 솔루션 수요가 커지는 반면, 신입 채용 관련 서비스는 수요 위축에 대비할 필요가 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.donga.com/news/Economy/article/all/20261001/134764258/2">[단독]IT 신입채용 3 년새 반토막 … 일 배울 기회조차 못 얻는 청년들</a></li>
+
+</ul>
+</details>
+
+**태그**: `#korea-hiring-data`, `#ict-talent-market`, `#entry-level-vs-experienced`, `#software-engineering-hiring`
+
+---
+
+<a id="item-hr-news-5"></a>
+### [MS, 오피스·팀즈 수장 퇴사시키고 조직을 Copilot 산하로 재편](https://news.google.com/rss/articles/CBMic0FVX3lxTE5nd3p0VHRDYkF4MHlNZzB4QXltZnpVUzdmZXdwczljcDl3bTF1TmxGSUtDaTdDQVhrYjZlcEJISnFKanRuZWhCT3kwRDFCOXozQmViUDBnRHAtTVp4cmx0QUN1aHktNFdEbURSUjlYT3ZTVE0?oc=5) ⭐️ 7.0/10
+
+마이크로소프트가 오피스와 팀즈를 이끌던 임원을 퇴사시키고 관련 조직을 Copilot 산하로 재편한 것으로 전해졌다. 구체적인 인사 교체 배경이나 신임 조직 체계에 대한 세부 내용은 보도에 명시되지 않았다. 이번 조치는 생산성 도구 사업부를 생성형 AI 제품인 Copilot 중심으로 재구성하려는 움직임으로 해석된다.
+
+rss · Google News KR · HR테크 · 10월 2일 00:03
+
+**「배경」** 마이크로소프트는 최근 몇 달간 Copilot을 중심으로 조직을 재편해왔다. Experiences + Devices 부문을 35년간 이끌어온 Rajesh Jha가 2026년 7월 퇴임을 앞두고 있고, Teams를 이끌던 Manik Gupta도 회사를 떠났으며, 전직 Snap 임원 Jacob Andreou가 Copilot 조직을 맡는 등 Copilot AI 리더십 개편이 이어지고 있다.
+
+**「시사점」** 대형 빅테크가 핵심 생산성 제품 조직을 AI 중심으로 재편하면서, AI 전략·제품 관리 역량을 갖춘 리더십에 대한 수요가 커지고 기존 기능별 리더십 체계는 축소될 가능성이 있다. 이는 테크 기업 채용 시장에서 AI 통합 경험이 임원급 평가의 핵심 기준으로 부상하고 있음을 보여준다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://windows.gadgethacks.com/news/microsoft-executive-departures-inside-the-copilot-first-reorg/">Microsoft Executive Departures: Inside the Copilot-First Reorg</a></li>
+<li><a href="https://samexpert.com/microsoft-copilot-reorganisation-march-2026/">Inside Microsoft&#x27;s March 2026 Copilot Reorg | SAMexpert Blog</a></li>
+<li><a href="https://www.cnbc.com/2026/03/17/microsoft-copilot-ai-suleyman.html">Microsoft shakes up Copilot AI leadership team, freeing up Suleyman</a></li>
+
+</ul>
+</details>
+
+**태그**: `#ai-in-recruiting`, `#organizational-change`, `#microsoft`, `#copilot`, `#talent-strategy`
+
+---
+
+<a id="item-hr-news-6"></a>
+### [AI 채용 에이전트 Metaview, 6천만 달러 Series B 펀딩 유치](https://news.google.com/rss/articles/CBMihwFBVV95cUxQLVkyZDN0VG5PWkh2YXVxZDRJZWZ6ZXhtZWs5Qng0RlVEcUVxMGpyVTBRYzJEa29YcElQRmhQTUJ4TU5KUUpFcDh1SjhwTnBwUmVvM1VVei1oU0NDdWNxSXprT0x2MjdHcFZPSTk0eC1HWjZlbmQzVHVfdExMcFVEMVN0SEQ4YWM?oc=5) ⭐️ 7.0/10
+
+AI 채용 에이전트 플랫폼 Metaview가 6천만 달러 규모의 Series B 펀딩을 유치했다. 이 AI 에이전트는 후보자 소싱, 스크리닝, 일정 조율 등 채용 프로세스의 여러 단계를 자동화하는 기능을 제공한다. 'Recruiting is next'라는 표현은 AI가 영업, 고객지원 등 다른 업무 영역을 넘어 채용 분야로 본격 확장되고 있다는 업계 내러티브를 반영한다.
+
+rss · Google News · Talent Acquisition · 10월 1일 14:56
+
+**「Metaview와 이번 라운드 배경」** Metaview는 원래 면접 지능\(interview intelligence\) 솔루션으로 알려진 AI 기반 채용 플랫폼으로, 최근 소싱·스크리닝·일정 조율까지 자동화하는 'agentic recruiting'으로 사업을 확장해왔다. 이번 6천만 달러 펀딩은 Series C로, Insight Partners가 주도하고 GV, Intrepid Growth 등이 참여했다.
+
+**「시사점」** 채용팀은 소싱부터 일정 조율까지 전 과정을 자동화하는 AI 에이전트 도구가 빠르게 상용화되고 있음을 체감하게 될 것이며, 경쟁 HR테크 기업들도 유사한 에이전트형 제품 개발과 투자 유치에 속도를 낼 가능성이 크다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.unite.ai/metaview-raises-60m-series-c-to-expand-ai-recruiting-platform/">Metaview Raises $60M Series C to Expand AI Recruiting Platform</a></li>
+<li><a href="https://www.businesswire.com/news/home/20260930331041/en/Metaview-Raises-$60M-Series-C-to-Lead-the-Shift-to-Agentic-Recruiting">Metaview Raises $60M Series C to Lead the Shift to Agentic Recruiting</a></li>
+
+</ul>
+</details>
+
+**태그**: `#ai-recruiting`, `#funding-rounds`, `#hiring-automation`, `#talent-acquisition-tech`
+
+---
+
+<a id="item-hr-news-7"></a>
+### [LinkedIn, 차세대 AI 채용 에이전트 Hiring Assistant 2 발표](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OVGNNazFfYTFPMTMwQmU3c1A5QUVLTWswZkkwRWt2bjFJcWFvVmZKMHljMGloZThkTUcxYXppQzFUMHgzWDRhSjYyWFhsOTEtX25qd3pWaXhiLUxUNHlHUDZ4VzZESjRu?oc=5) ⭐️ 7.0/10
+
+LinkedIn이 채용담당자의 채용 성과 개선을 돕는 차세대 AI 채용 에이전트 'Hiring Assistant 2'를 공개했다. 이는 기존 Hiring Assistant의 후속 버전으로, LinkedIn이 AI 기반 채용 도구를 지속적으로 고도화하고 있음을 보여준다. 다만 현재까지 공개된 자료에는 구체적인 신규 기능, 출시 시점, 성능 지표 등 세부 내용은 포함되어 있지 않다.
+
+rss · Google News · HR Tech &amp; AI Hiring · 10월 1일 10:22
+
+**「배경」** Hiring Assistant는 LinkedIn Recruiter에 결합된 AI 에이전트로 후보자 소싱, 평가, 메시징을 자동화하는 기존 제품이며, 이번 2세대 버전은 추론·메모리·개인화 능력을 개선해 더 적합한 후보자 추천을 제공하는 것을 목표로 한다.
+
+**「시사점」** 세계 최대 채용 플랫폼인 LinkedIn의 AI 에이전트 고도화는 경쟁 채용 솔루션 업체들에게 기능 격차를 좁혀야 한다는 압박으로 작용할 수 있으며, 채용담당자의 업무 방식이 점차 AI 에이전트 중심으로 재편될 가능성을 시사한다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://news.linkedin.com/2026/hiring-assistant-2">LinkedIn Announces Hiring Assistant 2 , its Next Generation Hiring ...</a></li>
+<li><a href="https://www.socialmediatoday.com/news/linkedin-updates-its-ai-powered-hiring-bot/831837/">LinkedIn updates its AI-powered hiring bot | Social Media Today</a></li>
+<li><a href="https://workinsiders.com/tools/linkedin-hiring-assistant/">LinkedIn Hiring Assistant : AI agent in LinkedIn Recruiter</a></li>
+
+</ul>
+</details>
+
+**태그**: `#ai-recruiting`, `#hiring-tools`, `#linkedin`, `#product-launch`, `#talent-acquisition`
+
+---
+
+<a id="item-hr-news-8"></a>
+### [KT, 소상공인 채용 플랫폼 '사장이지'에 AI면접 기능 도입](https://news.google.com/rss/articles/CBMicEFVX3lxTE8wSGYzdVJWdXliRlhJQlc3cmVudG9HbVFxaG92cGJFYXR2alJpVWstUjIyWmd1aGJiLUo0eEdwWkFpTGJQbFZjbXZHZUVRb1JPWWJqRDM3Q0FNbDRHNXVFeUNHSEdxWjdPaXpGaFY3TlLSAXRBVV95cUxNV1lCMjB0OTNBbDJVT3NrT0pHM1hiT0RrVXNjcHZNdWZ4N0libzcwaldwcHFvd2YyZ2taR2pRZ2x4REoxZGxYTzVDdnE3SGdfRXhtZ3NJMGFOdnotSXdidGdQeU1IMnNCTENaWmROWVdvcllKWA?oc=5) ⭐️ 6.0/10
+
+KT가 소상공인 대상 플랫폼 '사장이지'에 AI면접 기능을 새로 추가했다. AI가 채용 질문을 생성하는 등 면접 과정을 지원해 소상공인의 채용 부담과 비용을 줄이는 것이 목표다. KT는 11월 중 마케팅 AI 기능도 함께 선보일 예정이며, 이번 업데이트로 '사장이지'는 채용부터 마케팅까지 지원 범위를 확대하게 됐다.
+
+rss · Google News KR · 채용·인재시장 · 10월 2일 01:47
+
+**「배경」** '사장이지'는 KT가 운영하는 소상공인 대상 사업자 지원 플랫폼으로, 이번 조치는 대기업이 AI 채용 도구를 중소상공인 시장까지 확장하는 사례다.
+
+**「시사점」** 그동안 대기업 중심이던 AI면접 도구가 소상공인·소규모 사업장까지 저변을 넓히면서, 채용 솔루션 업체들은 가격 민감도가 높은 소상공인 세그먼트를 겨냥한 경량화·저비용 제품 전략을 고려할 필요가 있다.
+
+**태그**: `#ai-recruiting`, `#korea-hiring`, `#sme-recruitment`, `#product-launch`, `#interview-automation`
+
+---
+
+<a id="item-hr-news-9"></a>
+### [英 기업들, AI 확산 속 이력서 중심 채용서 능력 중심 평가로 전환](https://news.google.com/rss/articles/CBMiX0FVX3lxTE41Wk5pMmdJd2g0Y0thdmQyTFYxOTZxMUdPeDdaeUlYM2JXckE4SWoxc2dVWFJJT3F2alg5clNPX0E1dTFqMTAzT2ZyVUNiSHNZamZqdExmSE8xR29xSUFF?oc=5) ⭐️ 6.0/10
+
+영국 기업들이 AI 확산으로 인해 기존 이력서 중심의 채용 방식에서 벗어나 지원자의 실제 능력을 평가하는 방식\(skills-based hiring\)으로 전환하고 있다는 보도다. AI가 이력서 작성과 지원 과정에 광범위하게 활용되면서 경력 기술서만으로는 지원자의 실제 역량을 가려내기 어려워졌다는 문제의식이 배경에 깔려 있다. 다만 제공된 자료는 헤드라인 수준으로, 구체적인 기업명, 통계, 시행 시기 등 세부 내용은 확인되지 않는다.
+
+rss · Google News KR · 채용·인재시장 · 10월 1일 05:56
+
+**「배경」** AI 기반 지원서 작성 및 자동 지원 도구가 확산되면서 이력서만으로 지원자를 선별하는 전통적 채용 방식의 신뢰성이 떨어졌고, 이에 대응해 실제 직무 수행 능력을 검증하는 스킬 기반 채용\(skills-based hiring\)이 대안으로 주목받고 있다.
+
+**「시사점」** AI 기반 이력서·자소서 생성이 보편화되면서 서류 전형의 변별력이 떨어지고 있어, 채용 담당자와 HR테크 기업들은 과제형 평가, 실무 시뮬레이션 등 능력 검증 중심 도구에 대한 투자를 늘릴 가능성이 높다. 이는 이력서 파싱·스크리닝 중심의 기존 채용 솔루션들이 역량 평가 기반 제품으로 재편되는 압력으로 이어질 수 있다.
+
+**태그**: `#ai-recruiting`, `#skills-based-hiring`, `#resume-screening`, `#uk-hiring-trends`, `#talent-assessment`
+
+---
+
+<a id="item-hr-news-10"></a>
+### [LH 결원 1년 반 새 8배 증가해 604명으로 확대](https://news.google.com/rss/articles/CBMiYEFVX3lxTE56LUhmbHpkME14a3lSX2hHdmRYZms5dkpuVlFTZWZzV1Y5UTVXcDQxVDNSTnhjb1dodEVwa0FsdUxsMmNzWjZXQTBOeEJwNlFpMTVqM0hSenVISFhVaGpOQdIBYEFVX3lxTE56LUhmbHpkME14a3lSX2hHdmRYZms5dkpuVlFTZWZzV1Y5UTVXcDQxVDNSTnhjb1dodEVwa0FsdUxsMmNzWjZXQTBOeEJwNlFpMTVqM0hSenVISFhVaGpOQQ?oc=5) ⭐️ 6.0/10
+
+한국토지주택공사\(LH\)의 결원 인력이 1년 반 사이 약 8배 늘어 604명에 달한 것으로 나타났다. 이는 인력 부족 문제를 해결하라는 지시가 있었음에도 불구하고 실제 충원이 제대로 이뤄지지 않았음을 보여주는 수치다. 보도는 구체적인 결원 증가 배경이나 직군별 세부 내용까지는 다루지 않은 헤드라인 수준의 내용이다.
+
+rss · Google News KR · 채용·인재시장 · 10월 1일 20:30
+
+**「LH 인력난 배경」** LH\(한국토지주택공사\)는 공공주택 공급과 관리를 담당하는 국토교통부 산하 공기업으로, 그동안 정부와 국회로부터 인력 부족 문제 해결을 지속적으로 주문받아왔다.
+
+**「시사점」** 대표적 공공기관인 LH에서도 결원이 급증했다는 것은 공공부문 채용 절차의 경직성과 인력난이 구조적 문제로 고착되고 있음을 시사하며, 공공기관 채용 솔루션 수요와 관련 정책 논의에 영향을 줄 수 있다.
+
+**태그**: `#korea-hiring`, `#talent-shortage`, `#public-sector-recruitment`, `#labor-market-data`
+
+---
+
+<a id="item-hr-news-11"></a>
+### [日 대졸예정자 10명 중 8~9명 조기 취업…기업은 이직 우려](https://news.google.com/rss/articles/CBMiYEFVX3lxTE03N00zTmViMGdCeS1rTW9JRldrS2pKWklkblpWV2RqakM1UlhsMkpCSFhOaEVQTHFJWWZ1dU5kQ2Z0MXQzeHRmTW5KRDNXYmo1dDJKVFk5V1NRRWRyRURpZNIBYEFVX3lxTE03N00zTmViMGdCeS1rTW9JRldrS2pKWklkblpWV2RqakM1UlhsMkpCSFhOaEVQTHFJWWZ1dU5kQ2Z0MXQzeHRmTW5KRDNXYmo1dDJKVFk5V1NRRWRyRURpZA?oc=5) ⭐️ 6.0/10
+
+일본에서 내년 봄 졸업 예정인 대졸자 10명 중 8~9명이 이미 취업을 확정한 것으로 나타났다. 극심한 인력난 속에 기업들이 조기 채용 확정을 서두르면서 취업 내정률이 높은 수준을 유지하고 있다. 동시에 기업들은 신입사원을 어렵게 확보해도 입사 후 얼마 지나지 않아 퇴사할 가능성을 우려하는 상황이다. 이는 구직자 우위 시장에서 채용뿐 아니라 입사 후 정착과 리텐션 관리가 기업의 새로운 과제로 떠올랐음을 보여준다.
+
+rss · Google News KR · 채용·인재시장 · 10월 1일 07:08
+
+**「일본 대졸 취업 내정률 조사란」** 일본 문부과학성과 후생노동성은 1996년부터 매년 대학 졸업예정자의 취업 내정률을 공동 조사해 발표해왔으며, 과거 수치는 2016년 71.2%, 2020년 69.8% 등으로 꾸준히 70% 안팎을 기록해왔다. 이번 보도는 그 비율이 80~90%대까지 올라간 것으로, 일본의 구인난이 더욱 심화됐음을 보여준다.
+
+**「시사점」** 신입 인재를 둘러싼 경쟁이 치열해지면서 채용 담당자들은 입사 전 단계부터 온보딩, 멘토링 등 조기 이탈 방지 전략을 강화해야 할 필요성이 커진다. 한국을 포함한 주변 노동시장에도 유사한 구인난이 확산될 경우, 채용 플랫폼과 인재 데이터 기업은 리텐션 예측 및 내정자 관리 솔루션 수요 증가에 대비할 수 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.donga.com/news/Inter/article/all/20201117/104011130/1">한국은 ‘ 취업 지옥’인데… 日 , 대졸자 취업 내정률 69.8%｜동아일보</a></li>
+<li><a href="https://www.seoul.co.kr/news/international/2016/11/19/20161119800019">‘부러운’ 日 대졸예정자 취업 내정률 , 71%…19년래 최고 | 서울신문</a></li>
+<li><a href="https://www.chosun.com/international/japan/2021/11/22/PFVKO2HFRNB63PNR2Q6MFLPPFM/">日 대학 졸업예정자 취업 내정률 71% | 조선일보</a></li>
+
+</ul>
+</details>
+
+**태그**: `#labor-market-data`, `#graduate-employment`, `#talent-retention`, `#japan-hiring`
+
+---
+
+<a id="item-hr-news-12"></a>
+### [인도 화이트칼라 채용시장, AI 채용 20% 이상 급증](https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3dxVG5nSF9IOUc4WnVlUTJVeGhZQ1d6SWR4UVFGeW1fc2ZjTFFjaXhtTDIyYkc3bVpRREFKNDVjV0J6ekI2NFlqWVdaUkNaNUJpTHhJMlp5YkFoYndSUGlFZzAtM0F4blVFVVB0V1R6dnVhUVkzUkQwT3J4cWdwc2RHRm8yMG5HNW9pYXJlR2hQaElMYktsandrSktnQV9DRzZHU0xLekhrRU9fSzVXaElxdDlKQTZZalhKQW5mV2RIN3NZVkHSAcsBQVVfeXFMT3lEdlpUMGRtRTJSYVZ6VlFNMHRGWGZaTkhTWEJqS1JtY2lFRnZxR1pJT0NjYUk4NzNsZjhYdzl1VkpYSV9kdThTVTdVRUE0NVFkRm5oU3FYTFdraTBoVEVJMzMzQTVQMVItdXhXQ3BPZ3R3LTBZeExadFp0YmlQakczcloyZW1udE9mWmVrNHB0VVRCeDUyNXVDUlhwck5kWlNzeDR0c1pueGltQ1ZSaThMRGdyMnQ0enVBNzlwc21MeUpScmhXdllOd2c?oc=5) ⭐️ 6.0/10
+
+CNBC TV18에 따르면 인도의 화이트칼라 채용 시장에서 AI 관련 채용이 20% 이상 증가한 것으로 나타났다. 이는 전반적인 채용 시장이 과거보다 더 선별적으로 변화하고 있는 가운데 나온 수치로, 기업들이 제한된 채용 여력을 AI 관련 직무에 집중하고 있음을 시사한다. 다만 해당 수치의 구체적인 출처, 산정 기간, 조사 방법론 등 세부 내용은 원문 전체 확인이 제한되어 파악하기 어렵다.
+
+rss · Google News · HR Tech &amp; AI Hiring · 10월 1일 12:28
+
+**「배경」** 인도 화이트칼라 채용은 지난 9월 전체적으로 2% 성장에 그친 반면, AI/ML 관련 채용만 20% 이상 급증해 기업들이 전통적 IT 직군과 신입 채용 대신 AI 및 전문 스킬 인재로 수요를 옮기고 있음을 보여준다.
+
+**「시사점」** 인도처럼 글로벌 기업의 주요 채용 허브인 시장에서 AI 직무 채용이 늘고 일반 채용은 까다로워지는 흐름은, 채용 담당자와 인재 플랫폼이 AI 관련 스킬 기반 소싱과 평가 기능을 강화해야 할 필요성을 보여준다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.cnbctv18.com/education/ai-hiring-jumps-over-20-as-indias-white-collar-jobs-market-turns-more-selective-20003219.htm">AI hiring jumps over 20% as India&#x27;s white-collar jobs market turns more ...</a></li>
+<li><a href="https://www.linkedin.com/posts/cnbc-tv18_ai-hiring-jumps-over-20-as-indias-white-collar-activity-7511411635056680960-9v_h">AI hiring jumps over 20% as India&#x27;s white-collar jobs market turns more ...</a></li>
+
+</ul>
+</details>
+
+**태그**: `#ai-recruiting`, `#hiring-trends`, `#india-talent-market`, `#labor-market-data`
+
+---
+
+<a id="item-hr-news-13"></a>
+### [사무실 복귀 정책, 직원에게 연간 약 $6,700 비용 부담 분석](https://www.hrdive.com/news/the-rto-tax-is-an-estimated-6700-per-year-for-employees/831597/) ⭐️ 6.0/10
+
+구직 플랫폼 Resume.io의 분석에 따르면 RTO\(Return-to-Office, 사무실 복귀\) 정책이 직원에게 부과하는 실질 비용이 연간 약 $6,700에 달하는 것으로 나타났다. 통근비, 외식비, 의류비 등 사무실 출근과 관련된 각종 추가 지출이 이 비용에 포함된 것으로 분석됐다. 특히 보육비를 지불하는 근로 부모의 경우 이 부담이 연간 약 $16,000까지 치솟는 것으로 조사됐다. 이는 재택근무 전환으로 절감했던 비용이 사무실 복귀와 함께 다시 직원 개인에게 전가되는 구조를 수치로 보여준다.
+
+rss · HR Dive · 10월 1일 16:35
+
+**「배경」** 최근 수년간 많은 기업이 재택근무에서 사무실 복귀\(RTO\)로 정책을 전환하면서, 통근비·외식비·주차비 등 사무실 출근에 따른 직원 부담 비용이 논쟁거리로 떠올랐다. Resume.io는 연방 임금, 통근, 유류, 물가 데이터를 36개 주요 미국 대도시권에 걸쳐 분석해 이러한 'RTO 비용'을 산출했다.
+
+**「시사점」** 이 분석은 RTO 정책이 사실상 직원의 실질임금을 깎는 효과를 낸다는 것을 수치로 뒷받침하며, 특히 보육비 부담이 큰 근로 부모 인재층의 이탈이나 입사 거부 가능성을 높일 수 있음을 시사한다. 채용 담당자와 인재 유지 전략 수립자는 RTO 정책을 설계할 때 이러한 숨은 비용을 보상 패키지나 유연근무 옵션으로 상쇄하는 방안을 고려해야 한다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.fastcompany.com/91614983/u-s-workers-spend-nearly-7000-per-year-just-to-show-up-at-the-office">U.S. workers spend nearly $7,000 per year just to show up at the office</a></li>
+
+</ul>
+</details>
+
+**태그**: `#return-to-office`, `#employee-cost-analysis`, `#talent-retention`, `#compensation`, `#workplace-policy`
 
 ---
 
 ## 노동정책·규제
 
 <a id="item-hr-policy-1"></a>
-### [특사경 수사지휘 폐지, 노동부 수사심의위원회 신설](https://www.labortoday.co.kr/news/articleView.html?idxno=237010) ⭐️ 7.0/10
+### [산업안전보건법 개정안 국회 통과, 반복 산재 기업에 영업이익 5% 과징금](https://www.labortoday.co.kr/news/articleView.html?idxno=237035) ⭐️ 8.0/10
 
-개정 형사소송법이 2일 시행되면서 노동감독관은 임금체불과 산업재해 등 사건을 검사의 수사 지휘 없이 직접 처리할 수 있게 됐다. 고용노동부는 수사의 공정성과 객관성을 확보하기 위해 수사심의위원회를 설치·운영할 예정이다. 이를 위해 노동부는 지난 28일까지 '노동감독관 수사규칙 제정안'에 대한 행정예고를 통해 의견을 수렴했으며, 해당 규칙 제정은 현재 행정예고 단계로 아직 최종 확정되지는 않은 상태다.
+국회는 12월 1일 본회의에서 재석의원 219명 중 찬성 161명, 반대 52명, 기권 6명으로 산업안전보건법 개정안을 가결했다. 개정안은 다수·반복적으로 사상자를 발생시킨 사업주에게 영업이익의 5% 이내에서 과징금을 부과할 수 있도록 했으며, 하청노동자도 원청에 작업중지를 요청할 수 있는 권리를 명시했다. 또한 고용노동부 장관이 중대재해가 빈발하는 사업체에 대해 등록말소를 요청할 수 있는 법적 근거도 포함됐다. 이번 개정안은 상임위 통과 8개월 만에 본회의를 통과한 것으로, 구체적인 시행 시기는 source에 명시되지 않았다.
 
-rss · 매일노동뉴스 · 10월 1일 06:30
+rss · 매일노동뉴스 · 10월 2일 06:30
 
-**「배경」** 그동안 노동감독관\(특별사법경찰관\)은 임금체불·산업재해 등 사건을 수사할 때 검사의 수사 지휘를 받아야 했으나, 이번 형사소송법 개정으로 그 지휘 체계가 폐지됐다.
+**「배경」** 기존 산업안전보건법에는 산재가 반복 발생해도 사업주의 영업이익에 비례한 과징금을 부과할 근거가 없었고, 하청노동자가 원청에 직접 작업중지를 요청할 수 있는 법적 권한도 명확하지 않았다.
 
-**「실무 시사점」** 검사의 수사 지휘가 사라지면서 노동감독관의 독자적 수사 권한이 확대되는 만큼, 사업장은 임금체불·산업재해 관련 조사·수사 절차가 어떻게 운영되는지, 수사심의위원회의 구체적 운영 방식과 제정안 확정 여부를 지속적으로 확인할 필요가 있다.
+**「실무 시사점」** 반복적으로 산업재해가 발생한 사업장을 보유한 기업은 영업이익 대비 과징금 리스크를 안전관리 비용에 반영해야 하며, 원청은 하청노동자의 작업중지 요청 절차를 사전에 마련해둘 필요가 있다.
 
-**태그**: `#labor-law-reform`, `#investigative-authority`, `#employment-enforcement`, `#korea-labor-policy`
+**태그**: `#occupational-safety`, `#workplace-injury-penalties`, `#labor-law-amendment`, `#worker-protections`, `#south-korea-employment-law`
 
 ---
 
 <a id="item-hr-policy-2"></a>
-### [노동부, 하청노조 와해 의혹 우창코넥타 원청 압수수색](https://www.labortoday.co.kr/news/articleView.html?idxno=237019) ⭐️ 6.0/10
+### [특사경 수사지휘 폐지, 노동부 수사심의위 설치·운영](https://www.labortoday.co.kr/news/articleView.html?idxno=237010) ⭐️ 7.0/10
 
-고용노동부가 우창코넥타 노조 와해 의혹과 관련해 모회사인 모베이스전자를 압수수색하고, 문석현 우창코넥타 전 대표이사의 휴대전화를 확보했다. 이는 원청이 하청노조를 없애기 위해 우창코넥타의 파산에 의도적으로 개입했는지를 확인하기 위한 강제수사다. 우창코넥타 노동자 65명은 지난 1월22일 법원의 파산 선고 직후 "1시간 안에 퇴근하라"는 통보를 받았다. 현재 사건은 수사 단계로, 최종 처분이나 법원 판단은 아직 나오지 않았다.
+개정 형사소송법이 12월 2일 시행되면서 노동감독관\(특별사법경찰관\)은 임금체불·산업재해 등 사건을 검사의 수사 지휘 없이 직접 처리하게 된다. 고용노동부는 수사의 공정성과 객관성을 보장하기 위해 수사심의위원회를 설치·운영할 계획이며, 이를 뒷받침할 '노동감독관 수사규칙 제정안'에 대해 지난 28일까지 행정예고를 통해 의견을 수렴했다. 이 제도 변화는 노동부 소관 사건 전반에 적용되며, 세부 운영 방식은 제정될 수사규칙에 따라 정해질 예정이다.
 
 rss · 매일노동뉴스 · 10월 1일 06:30
 
-**「사건 배경」** 우창코넥타는 모베이스전자의 하청 자회사로, 올해 1월22일 법원의 파산 선고 직후 소속 노동자 65명이 1시간 안에 퇴근하라는 통보를 받으며 집단 해고된 바 있다. 이에 고용노동부 천안지청은 모베이스전자 법인과 대표, 우창코넥타 법인과 대표 등 4명을 피고소인으로 놓고 원청이 하청노조를 없애기 위해 파산에 의도적으로 개입했는지 조사해 왔다.
+**「배경」** 기존에는 노동감독관이 특별사법경찰관으로서 임금체불·산업재해 사건을 수사할 때 검사의 수사 지휘를 받아야 했으나, 이번 형사소송법 개정으로 그 지휘 체계가 폐지됐다.
 
-**「실무 시사점」** 하청 자회사를 둔 원청 기업은 구조조정·파산 등 조직 변경 과정에서 노조 와해 의도로 해석될 수 있는 의사결정 및 지시 기록 관리에 유의해야 하며, 수사 결과에 따라 하청 구조 내 노조 활동 보호 범위에 대한 선례가 될 수 있다.
+**「실무 시사점」** 검사 지휘 없이 노동감독관이 독자적으로 수사를 개시·진행할 수 있게 됨에 따라, 기업은 임금체불·산업재해 관련 조사에 더 신속하고 직접적으로 대응해야 하며, 향후 공개될 수사규칙 제정안과 수사심의위원회 운영 방식을 주의 깊게 확인할 필요가 있다.
+
+**태그**: `#labor-law-reform`, `#investigation-procedure`, `#wage-theft-enforcement`, `#workplace-safety`, `#compliance`
+
+---
+
+<a id="item-hr-policy-3"></a>
+### [뉴저지주, AI 기반 전자 모니터링 규제 법안 상원 통과](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqUkJ5anZCbTdEWDVxcC01UFlVOUR0X2QtbDBCaHhDeFFXbXNBU2lFa3Y1REx6RFdtcGxKaEx5UzktTmloVGZ3dHpRdXRvcTZYak9udzJzSE1hSXFJREJldQ?oc=5) ⭐️ 7.0/10
+
+뉴저지주 상원 의원 Zwicker와 Turner가 발의한 법안이 주 상원에서 통과 절차를 진전시켰다. 이 법안은 채용 및 근무 중 AI 기반 전자 모니터링 사용에 가드레일\(규제 기준\)을 설정하는 내용을 담고 있다. 법안은 AI 평가 도구와 직원 감시 기술을 도입하는 고용주들에게 새로운 준수 요건을 부과할 가능성이 있다. 다만 구체적인 시행일, 적용 대상 사업장 규모, 세부 요건 등은 현재 공개된 내용만으로는 확인되지 않는다.
+
+rss · Google News · HR Tech &amp; AI Hiring · 10월 1일 20:56
+
+**「배경」** 현재 다수의 고용주가 채용 평가나 근무 중 전자 모니터링에 AI 도구를 활용하고 있지만, 뉴저지주를 포함한 대부분 주에는 이러한 AI 사용을 구체적으로 규율하는 법적 가이드라인이 마련되어 있지 않았다. 법안 발의자인 Zwicker 상원의원은 이번 법안이 AI를 전면 금지하는 것이 아니라, 채용·해고와 같은 중대한 결정은 맥락을 판단하고 결과에 책임을 지는 사람이 내려야 한다는 원칙을 반영한 것이라고 설명했다.
+
+**「실무 시사점」** 뉴저지주에서 AI 기반 채용 평가 도구나 직원 모니터링 시스템을 사용 중이거나 도입을 검토 중인 고용주는 법안의 최종 통과 여부와 세부 조항을 지속적으로 확인해야 한다.
 
 <details><summary>참고 링크</summary>
 <ul>
-<li><a href="https://www.daejonilbo.com/news/articleView.html?idxno=2304255">노동부, 모베이스전자 압수수색…&#x27; 우창코넥타 노조 와해 의혹&#x27; 수사</a></li>
+<li><a href="https://wpgtalkradio.com/ixp/385/p/ai-tools-reshape-new-jersey-workplace/">NJ bill would regulate AI use in the workplace</a></li>
 
 </ul>
 </details>
 
-**태그**: `#union-busting`, `#subcontracting`, `#labor-enforcement`, `#korea-labor-law`, `#corporate-restructuring`
+**태그**: `#ai-hiring-regulation`, `#employment-monitoring`, `#us-state-legislation`, `#hr-compliance`
+
+---
+
+<a id="item-hr-policy-4"></a>
+### [캘리포니아, AI 관련 근로자 보호 법안 다수 서명](https://www.hrdive.com/news/california-revamps-ai-protections-for-workers-in-flurry-of-bill-signings/831949/) ⭐️ 7.0/10
+
+캘리포니아 주지사 개빈 뉴섬\(Gavin Newsom\)이 근로자와 소비자를 AI 관련 위험으로부터 보호하기 위한 여러 법안에 서명했다. 주정부는 이번 조치를 근로자와 소비자 보호를 위한 '국가 선도적 프레임워크\(nation-leading framework\)'라고 설명했다. 다만 제공된 자료에는 구체적으로 서명된 법안명, 각 법안의 적용 대상, 시행일, 세부 규제 내용이 명시되어 있지 않아 현재로서는 전체 범위를 확인할 수 없다.
+
+rss · HR Dive · 10월 1일 21:17
+
+**「배경」** 캘리포니아를 비롯한 여러 주에서는 그동안 AI를 활용한 해고 결정, 성과 감시, 업무 지시 등에 대한 구체적 규제가 미비해 '로보 보스\(robo boss\)' 관행에 대한 노동계의 우려가 제기되어 왔다. 이번 서명은 이러한 공백을 메우기 위해 AI가 근로자 해고·통제·감시에 관여하는 방식을 제한하려는 노동계 요구에 대응한 조치로 해석된다.
+
+**「실무 시사점」** 캘리포니아에서 채용 또는 인사 운영을 하는 고용주와 채용 담당자는 구체적인 법안 내용과 시행일이 공개되는 대로 자사의 AI 채용 도구 및 근로자 모니터링 관행이 새 규정에 부합하는지 점검할 필요가 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://calmatters.org/economy/technology/2026/09/on-ai-newsom-gives-labor-only-some-of-what-it-demanded/">On AI, Newsom gives labor most of what it demanded - CalMatters</a></li>
+<li><a href="https://www.kqed.org/news/12102337/newsom-signs-slate-of-ai-workplace-laws-barring-robo-bosses-and-surveillance">Newsom Signs Slate of AI Workplace Laws, Barring &#x27;Robo Bosses&#x27; and ...</a></li>
+
+</ul>
+</details>
+
+**태그**: `#ai-hiring-regulation`, `#worker-protection`, `#california-labor-law`, `#employment-policy`, `#us-legislation`
+
+---
+
+<a id="item-hr-policy-5"></a>
+### [지역농협, 퇴사 후 1년간 동종 이직 제한…직업선택 자유 침해 논란](https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xYk0tcDFkZUN1Mm9SMEFTbDdJT3NzNjhuZnVMdUJtQUFLQ3lubHQ2Y3RILUNFSzBBcnRoazQwd0NGRlNDcEIwM2xHbzhmSjAzYURvX0VRTnRyZ19NaVRROQ?oc=5) ⭐️ 6.0/10
+
+지역농협이 퇴사한 직원에 대해 1년간 다른 지역농협으로 이직하는 것을 제한하는 규정을 두고 있는 것으로 확인됐다. 이에 대해 해당 조항이 직업선택의 자유를 침해한다는 문제 제기가 나오고 있다. 이는 현재 시행 중인 지역농협 내부 규정을 둘러싼 논란이며, 구체적인 법령 개정이나 정부 차원의 공식 조치로 확정된 사안은 아니다. 적용 대상은 지역농협에서 퇴사한 직원들로, 동일 업계 내 재취업 시 1년의 제한 기간이 적용되는 것으로 보도됐다.
+
+rss · Google News KR · 채용·인재시장 · 10월 1일 21:00
+
+**「배경」** 일반적으로 비경쟁\(non-compete\) 조항은 영업비밀 보호나 과도한 인력 유출 방지를 명분으로 도입되지만, 기간·범위가 과도하면 직업선택의 자유를 침해한다는 법적 쟁점이 제기되어 왔다.
+
+**「시사점」** 지역농협 및 유사 조직에서 채용·인사 담당자는 이직 제한 조항의 법적 유효성과 범위를 점검할 필요가 있으며, 해당 업계로의 이직을 고려하는 구직자는 계약서상 경쟁 제한 조항 유무를 사전에 확인해야 한다.
+
+**태그**: `#employment-contracts`, `#non-compete-clauses`, `#labor-mobility`, `#korea-labor-law`, `#agricultural-sector`
+
+---
+
+<a id="item-hr-policy-6"></a>
+### [고용노동부, 고령자 계속고용장려금 확대…비수도권 월 40만원 지원](https://news.google.com/rss/articles/CBMiakFVX3lxTE9SMkFMUzdBX21ocUZEVmRVNlpZaDVIMUlNd2V3R3NCSG9haFhhdFpuc3dQZ21SVk95NGdoMV92MmN6NUZ5NFo4QTNsSVVyVnlfZWlRcWVkbjlJWGFMOVdPWkZyRXFQMjREaFE?oc=5) ⭐️ 6.0/10
+
+고용노동부가 정년 이후 고령자를 재고용하는 사업주를 지원하기 위해 고령자 계속고용장려금 프로그램을 확대한다고 밝혔다. 지원 금액은 비수도권 소재 사업장의 경우 월 40만원, 수도권 소재 사업장의 경우 월 30만원이며, 최대 3년간 지급된다. 다만 시행 시기, 구체적인 지원 대상 기업 요건, 신청 절차 등 실행 세부사항은 보도 내용에 명시되어 있지 않다.
+
+rss · Google News KR · 노동정책 · 10월 1일 13:47
+
+**「계속고용장려금 제도 개요」** 고령자 계속고용장려금은 정년을 연장·폐지하거나 정년 후 재고용하는 사업주에게 근로자 1인당 일정 금액을 지원하는 기존 제도로, 지원금 지급 요건에는 근로자의 월 평균 보수 하한선이 포함되어 있다. 이번 개정은 비수도권 지역 지원금을 월 40만원으로 상향하고 월 평균 보수 하한선을 121만원에서 124만원으로 조정하는 내용으로, 2026년 1월 1일 시행을 앞두고 행정예고된 사안이다.
+
+**「실무 시사점」** 정년퇴직을 앞둔 고령 인력의 재고용 또는 정년 연장을 검토 중인 인사담당자는 지역별 지원 금액 차이\(수도권 월 30만원, 비수도권 월 40만원\)를 염두에 두고, 고용노동부의 세부 시행 공고를 확인해 신청 자격과 절차를 파악할 필요가 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://gah-eul.com/support/notice/?mod=document&amp;uid=2198">(포켓뉴스레터) 2026년 고령자 계속고용장려금 개정 사항...</a></li>
+<li><a href="https://www.outsourcing.co.kr/news/articleView.html?idxno=201512">[정부지원금 뉴스] 비수도권 고령자 계속고용장려금 인상…신규 사업주...</a></li>
+
+</ul>
+</details>
+
+**태그**: `#older-workers`, `#employment-subsidy`, `#post-retirement-hiring`, `#korea-labor-policy`, `#employer-incentives`
+
+---
+
+## 리서치·인사이트
+
+<a id="item-hr-insight-1"></a>
+### [탤런트 인텔리전스의 미래: AI 기업들이 인재 전략에 던지는 교훈](https://www.aptituderesearch.com/the-future-of-talent-intelligence-what-ai-companies-are-teaching-us-about-talent-strategy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-future-of-talent-intelligence-what-ai-companies-are-teaching-us-about-talent-strategy) ⭐️ 7.0/10
+
+rss · Aptitude Research · 10월 1일 20:33
+
+**「배경」** 저자 Madeline Laurano는 그동안 talent intelligence가 데이터와 대시보드에 머물러 실제 의사결정과 단절된 채 저평가되어 왔다고 지적하며, AI가 노동시장을 재편하는 지금 이 기능이 단순 보고 도구를 넘어 기업 경쟁력과 비즈니스 전략을 좌우하는 핵심 역량으로 전환되어야 한다고 주장한다.
+
+**「핵심 주장」** Aptitude Research는 Findem과 공동으로 OpenAI, NVIDIA, Anthropic, Databricks, Perplexity 등 AI 기업 5곳과 Meta, Apple, Amazon, Google, Microsoft 등 Big Tech 5곳의 인재 이동, 채용 패턴, 스킬 성장, 조직 구조를 분석했다. 저자에 따르면 AI 기업들은 Big Tech보다 44% 빠르게 채용하고 있으며, 평균 재직 기간은 약 3.5년으로 Big Tech의 5년보다 짧지만 이는 급속한 성장 시기에 채용된 인력 비중이 크기 때문이지 이직률이 높아서가 아니라고 설명한다. 스킬 측면에서는 AI, machine learning, Python, LLM 관련 역량의 집중도가 AI 기업에서 Big Tech보다 2~6배 빠르게 성장했고, 구체적으로 Python 스킬은 AI 기업에서 33% 성장한 반면 Big Tech에서는 5%에 그쳤다. 또한 저자는 승진률과 이직률 사이에 양의 상관관계가 나타났다는 점을 들어, 높은 승진률이 반드시 적극적인 인재 육성을 의미하지 않고 오히려 퇴사로 생긴 공백을 메우는 반응적 승진일 수 있다고 재해석한다. 지리적 측면에서는 AI 기업 채용의 48%가 Bay Area에 집중되어 있지만, 이는 특정 지역에만 인재가 존재해서가 아니라 기업이 근무지를 그렇게 요구하기 때문일 수 있다고 주장한다. 다만 이 연구는 Aptitude Research와 Findem의 독자적인 파트너십 데이터에 기반하며, 구체적인 방법론 공개는 제한적이라는 한계가 있다.
+
+**「시사점」** 저자의 결론은 talent intelligence가 현재 채용 활동을 보고하는 수준을 넘어 미래 스킬 수요를 예측하고, 내부 이동이 능동적 육성인지 반응적 충원인지 구분하며, 지리적 채용 요건이 타당한 근거에 기반했는지 검증하는 의사결정 도구로 진화해야 한다는 것이다. 채용 리더들에게는 인재 전략을 비즈니스 전략에 종속시키지 말고, 보유 데이터를 활용해 더 나은 결정을 내리는 방향으로 전환할 것을 요구한다.
+
+**태그**: `#talent-intelligence`, `#ai-hiring`, `#skills-development`, `#big-tech-vs-startups`, `#workforce-strategy`
 
 ---
