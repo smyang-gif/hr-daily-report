@@ -721,32 +721,44 @@ class HorizonOrchestrator:
         if not duplicate_groups:
             return items
 
-        # Build a set of indices to drop (all non-primary duplicates)
-        drop_indices: set[int] = set()
+        # The model may return overlapping groups ([4, 10] and [12, 10]) and
+        # then keep both 4 and 12 although they report the same story. Merge
+        # the groups transitively and keep the highest-scored item (lowest
+        # index, since items arrive sorted by score) of each component.
+        parent = list(range(len(items)))
+
+        def find(i: int) -> int:
+            while parent[i] != i:
+                parent[i] = parent[parent[i]]
+                i = parent[i]
+            return i
+
         for group in duplicate_groups:
-            if not isinstance(group, list) or len(group) < 2:
+            if not isinstance(group, list):
                 continue
-            primary_idx = group[0]
-            if primary_idx < 0 or primary_idx >= len(items):
+            valid = [i for i in group if isinstance(i, int) and 0 <= i < len(items)]
+            for other in valid[1:]:
+                ra, rb = find(valid[0]), find(other)
+                if ra != rb:
+                    parent[max(ra, rb)] = min(ra, rb)
+
+        drop_indices: set[int] = set()
+        for dup_idx in range(len(items)):
+            primary_idx = find(dup_idx)
+            if primary_idx == dup_idx:
                 continue
-            primary = items[primary_idx]
-            for dup_idx in group[1:]:
-                if not isinstance(dup_idx, int) or dup_idx < 0 or dup_idx >= len(items):
-                    continue
-                if dup_idx == primary_idx:
-                    continue
-                dup = items[dup_idx]
-                # Merge comments/content from the duplicate into the primary
-                if dup.content:
-                    if not primary.content or dup.content not in primary.content:
-                        label = dup.source_type.value
-                        primary.content = (primary.content or "") + f"\n\n--- From {label} ---\n{dup.content}"
-                if log:
-                    self.console.print(
-                        f"   [dim]dedup: keep [{primary_idx}] {primary.title}[/dim]\n"
-                        f"   [dim]       drop [{dup_idx}] {dup.title}[/dim]"
-                    )
-                drop_indices.add(dup_idx)
+            primary, dup = items[primary_idx], items[dup_idx]
+            # Merge comments/content from the duplicate into the primary
+            if dup.content:
+                if not primary.content or dup.content not in primary.content:
+                    label = dup.source_type.value
+                    primary.content = (primary.content or "") + f"\n\n--- From {label} ---\n{dup.content}"
+            if log:
+                self.console.print(
+                    f"   [dim]dedup: keep [{primary_idx}] {primary.title}[/dim]\n"
+                    f"   [dim]       drop [{dup_idx}] {dup.title}[/dim]"
+                )
+            drop_indices.add(dup_idx)
 
         return [item for i, item in enumerate(items) if i not in drop_indices]
 
@@ -781,23 +793,26 @@ class HorizonOrchestrator:
 
         deduped_items = threshold_items
         if topic_dedup and deduped_items:
-            profile_groups: Dict[str, List[ContentItem]] = defaultdict(list)
+            # One pass across every dedup-enabled profile: the same story is
+            # often classified as news by one outlet and policy by another.
+            dedup_pool: List[ContentItem] = []
+            passthrough: List[ContentItem] = []
             for item in deduped_items:
                 profile_id = (
                     item.processing.classification.profile
                     if item.processing
                     else self.profiles.default_profile
                 )
-                profile_groups[profile_id].append(item)
-            deduped_items = []
-            for profile_id, profile_items in profile_groups.items():
                 settings = self.config.processing.profile_settings.get(profile_id)
                 if settings is None or settings.topic_dedup:
-                    deduped_items.extend(
-                        await self.merge_topic_duplicates(profile_items, log=log)
-                    )
+                    dedup_pool.append(item)
                 else:
-                    deduped_items.extend(profile_items)
+                    passthrough.append(item)
+            deduped_items = (
+                await self.merge_topic_duplicates(dedup_pool, log=log)
+                if dedup_pool
+                else []
+            ) + passthrough
             deduped_items.sort(
                 key=lambda item: (
                     item.processing.analysis.score
