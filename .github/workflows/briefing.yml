@@ -1,0 +1,149 @@
+name: HR Briefing
+
+on:
+  schedule:
+    # Once a day, in UTC. 23:37 UTC = 08:37 KST, so the page is up around 09:00.
+    # Scheduled runs are best-effort on shared runners and are dropped most often
+    # at the top of the hour, so the slot sits off the hour. A retry runs at
+    # 01:17 UTC (10:17 KST) and is a no-op when the first attempt delivered.
+    - cron: '37 23 * * *'
+    - cron: '17 1 * * *'   # retry
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: 'Lookback window in hours (blank uses the config value)'
+        required: false
+        type: string
+      force:
+        description: 'Run even if today already has a briefing'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: pages-publish
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.11.26'
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Resolve date (KST)
+        id: day
+        run: |
+          DATE=$(TZ=Asia/Seoul date +'%Y-%m-%d')
+          echo "date=$DATE"        >> "$GITHUB_OUTPUT"
+          echo "year=${DATE:0:4}"  >> "$GITHUB_OUTPUT"
+          echo "month=${DATE:5:2}" >> "$GITHUB_OUTPUT"
+          echo "Briefing date $DATE (KST)"
+
+      - name: Skip if today already delivered
+        id: guard
+        env:
+          EXISTING: briefings/${{ steps.day.outputs.year }}/${{ steps.day.outputs.month }}/${{ steps.day.outputs.date }}.md
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ "$FORCE" = "true" ] || [ ! -f "$EXISTING" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "$EXISTING already exists; nothing to do."
+          fi
+
+      - name: Prepare config
+        if: steps.guard.outputs.run == 'true'
+        run: cp data/config.github.json data/config.json
+
+      - name: Preflight AI models
+        if: steps.guard.outputs.run == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: uv run python scripts/check-models.py
+
+      - name: Run pipeline
+        if: steps.guard.outputs.run == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.hours }}" ]; then
+            uv run python -m src.main --hours "${{ inputs.hours }}" --log-level INFO
+          else
+            uv run python -m src.main --log-level INFO
+          fi
+
+      - name: Archive briefing
+        if: steps.guard.outputs.run == 'true'
+        id: archive
+        env:
+          DATE: ${{ steps.day.outputs.date }}
+          YEAR: ${{ steps.day.outputs.year }}
+          MONTH: ${{ steps.day.outputs.month }}
+        run: |
+          SRC="data/summaries/horizon-${DATE}-ko.md"
+          if [ ! -f "$SRC" ]; then
+            echo "No summary produced at $SRC"
+            echo "produced=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          mkdir -p "briefings/${YEAR}/${MONTH}"
+          cp "$SRC" "briefings/${YEAR}/${MONTH}/${DATE}.md"
+
+          USAGE="data/usage/horizon-${DATE}.json"
+          if [ -f "$USAGE" ]; then
+            mkdir -p "usage/${YEAR}/${MONTH}"
+            cp "$USAGE" "usage/${YEAR}/${MONTH}/${DATE}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json"
+          fi
+          echo "produced=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit briefing
+        if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
+        env:
+          DATE: ${{ steps.day.outputs.date }}
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add briefings/ usage/
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "브리핑: ${DATE}"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep 5
+          done
+          exit 1
+
+      # The Jekyll post (docs/_posts) is gitignored on main; gh-pages keeps
+      # every earlier post because keep_files is on.
+      - name: Deploy to GitHub Pages
+        if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          keep_files: true
+          enable_jekyll: true
+          commit_message: "브리핑: ${{ steps.day.outputs.date }}"

@@ -1,0 +1,35 @@
+{
+  "id": "hr-news",
+  "name": "HR & Recruiting News",
+  "display_names": {
+    "ko": "채용·인재시장 동향",
+    "zh": "招聘与人才市场"
+  },
+  "match": "match.md",
+  "analysis": "analysis.md",
+  "enrichment": {
+    "prompt": "enrichment.md",
+    "blocks": [
+      {
+        "id": "summary",
+        "type": "section",
+        "tools": [],
+        "primary": true
+      },
+      {
+        "id": "background",
+        "type": "section",
+        "tools": [
+          "web_search"
+        ],
+        "optional": true
+      },
+      {
+        "id": "implication",
+        "type": "section",
+        "tools": [],
+        "optional": true
+      }
+    ]
+  }
+}

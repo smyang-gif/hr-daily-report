@@ -1,0 +1,35 @@
+{
+  "id": "hr-policy",
+  "name": "Labor Policy & Regulation",
+  "display_names": {
+    "ko": "노동정책·규제",
+    "zh": "劳动政策与法规"
+  },
+  "match": "match.md",
+  "analysis": "analysis.md",
+  "enrichment": {
+    "prompt": "enrichment.md",
+    "blocks": [
+      {
+        "id": "summary",
+        "type": "section",
+        "tools": [],
+        "primary": true
+      },
+      {
+        "id": "background",
+        "type": "section",
+        "tools": [
+          "web_search"
+        ],
+        "optional": true
+      },
+      {
+        "id": "implication",
+        "type": "section",
+        "tools": [],
+        "optional": true
+      }
+    ]
+  }
+}

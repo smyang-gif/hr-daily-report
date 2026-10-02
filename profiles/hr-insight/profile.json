@@ -1,0 +1,35 @@
+{
+  "id": "hr-insight",
+  "name": "HR Research & Insight",
+  "display_names": {
+    "ko": "리서치·인사이트",
+    "zh": "研究与洞察"
+  },
+  "match": "match.md",
+  "analysis": "analysis.md",
+  "content": {
+    "analysis_max_chars": 16000,
+    "enrichment_max_chars": 24000,
+    "sampling": "head-middle-tail"
+  },
+  "enrichment": {
+    "prompt": "enrichment.md",
+    "blocks": [
+      {
+        "id": "background",
+        "type": "section",
+        "tools": []
+      },
+      {
+        "id": "argument",
+        "type": "section",
+        "tools": []
+      },
+      {
+        "id": "takeaway",
+        "type": "section",
+        "tools": []
+      }
+    ]
+  }
+}

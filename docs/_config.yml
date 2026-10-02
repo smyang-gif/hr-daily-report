@@ -1,0 +1,24 @@
+theme: jekyll-theme-cayman
+title: HR 데일리 브리핑
+description: 채용·인재시장·HR테크·노동정책 소식을 매일 아침 한국어로 정리한 브리핑
+baseurl: "/hr-daily-report"
+url: "https://smyang-gif.github.io"
+feedback_api_url: ""
+
+# Build settings
+markdown: kramdown
+future: true # Allow future posts to be published
+plugins:
+  - jekyll-feed
+feed:
+  path: feed.xml
+exclude:
+  - ".github"
+  - "node_modules"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"

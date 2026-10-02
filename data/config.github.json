@@ -1,0 +1,214 @@
+{
+  "ai": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-5",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 8192,
+    "throttle_sec": 0.5,
+    "analysis_concurrency": 4,
+    "enrichment_concurrency": 3,
+    "languages": [
+      "ko"
+    ],
+    "stage_models": {
+      "analysis": "claude-haiku-4-5",
+      "dedup": "claude-haiku-4-5"
+    }
+  },
+  "processing": {
+    "profiles_dir": "profiles",
+    "default_profile": "hr-news",
+    "profile_settings": {
+      "hr-news": {
+        "threshold": 6.0,
+        "topic_dedup": true
+      },
+      "hr-policy": {
+        "threshold": 6.0,
+        "topic_dedup": true
+      },
+      "hr-insight": {
+        "threshold": 6.5,
+        "topic_dedup": false
+      }
+    }
+  },
+  "sources": {
+    "arxiv": {
+      "enabled": false
+    },
+    "hackernews": {
+      "enabled": false
+    },
+    "reddit": {
+      "enabled": false,
+      "subreddits": [],
+      "users": []
+    },
+    "github": [],
+    "rss": [
+      {
+        "name": "Google News KR · 채용·인재시장",
+        "url": "https://news.google.com/rss/search?q=%EC%B1%84%EC%9A%A9+OR+%EC%9D%B8%EC%9E%AC%EC%B1%84%EC%9A%A9+OR+%EA%B5%AC%EC%9D%B8%EB%82%9C+OR+%EA%B2%BD%EB%A0%A5%EC%A7%81+OR+%ED%97%A4%EB%93%9C%ED%97%8C%ED%8C%85+OR+%EC%9D%B4%EC%A7%81+OR+%EC%9D%B8%EB%A0%A5%EB%82%9C+when%3A1d&hl=ko&gl=KR&ceid=KR%3Ako",
+        "category": "kr-news",
+        "profile": [
+          "hr-news",
+          "hr-policy"
+        ]
+      },
+      {
+        "name": "Google News KR · HR테크",
+        "url": "https://news.google.com/rss/search?q=HR%ED%85%8C%ED%81%AC+OR+%EC%B1%84%EC%9A%A9%ED%94%8C%EB%9E%AB%ED%8F%BC+OR+%22AI+%EB%A9%B4%EC%A0%91%22+OR+%22AI+%EC%B1%84%EC%9A%A9%22+OR+%EC%9B%90%ED%8B%B0%EB%93%9C+OR+%EC%82%AC%EB%9E%8C%EC%9D%B8+OR+%EC%9E%A1%EC%BD%94%EB%A6%AC%EC%95%84+OR+%EB%A6%AC%EB%A9%A4%EB%B2%84+OR+%EB%A7%81%ED%81%AC%EB%93%9C%EC%9D%B8+when%3A1d&hl=ko&gl=KR&ceid=KR%3Ako",
+        "category": "kr-news",
+        "profile": "hr-news"
+      },
+      {
+        "name": "Google News KR · 노동정책",
+        "url": "https://news.google.com/rss/search?q=%EA%B3%A0%EC%9A%A9%EB%85%B8%EB%8F%99%EB%B6%80+OR+%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95+OR+%EB%85%B8%EB%8F%99%EB%B2%95+OR+%EC%B5%9C%EC%A0%80%EC%9E%84%EA%B8%88+OR+%EC%A3%BC4.5%EC%9D%BC+OR+%EC%9E%84%EA%B8%88%EC%B2%B4%EA%B3%84+OR+%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98+when%3A1d&hl=ko&gl=KR&ceid=KR%3Ako",
+        "category": "kr-policy",
+        "profile": "hr-policy"
+      },
+      {
+        "name": "고용노동부",
+        "url": "http://www.moel.go.kr/rss/policy.do",
+        "category": "kr-policy",
+        "profile": "hr-policy"
+      },
+      {
+        "name": "매일노동뉴스",
+        "url": "https://www.labortoday.co.kr/rss/allArticle.xml",
+        "category": "kr-policy",
+        "profile": [
+          "hr-policy",
+          "hr-news"
+        ]
+      },
+      {
+        "name": "Google News · Talent Acquisition",
+        "url": "https://news.google.com/rss/search?q=%22talent+acquisition%22+OR+recruiting+OR+%22hiring+manager%22+OR+%22recruiting+software%22+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "category": "global-news",
+        "profile": "hr-news"
+      },
+      {
+        "name": "Google News · HR Tech & AI Hiring",
+        "url": "https://news.google.com/rss/search?q=%22HR+tech%22+OR+%22AI+recruiting%22+OR+%22AI+hiring%22+OR+LinkedIn+hiring+OR+Workday+OR+Eightfold+OR+Greenhouse+OR+Ashby+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "category": "global-news",
+        "profile": [
+          "hr-news",
+          "hr-policy"
+        ]
+      },
+      {
+        "name": "HR Dive",
+        "url": "https://www.hrdive.com/feeds/news/",
+        "category": "global-news",
+        "profile": [
+          "hr-news",
+          "hr-policy"
+        ]
+      },
+      {
+        "name": "HR Tech Feed",
+        "url": "https://hrtechfeed.com/feed/",
+        "category": "global-news",
+        "profile": "hr-news"
+      },
+      {
+        "name": "Personnel Today",
+        "url": "https://www.personneltoday.com/feed/",
+        "category": "global-news",
+        "profile": [
+          "hr-news",
+          "hr-policy"
+        ]
+      },
+      {
+        "name": "ERE",
+        "url": "https://www.ere.net/feed/",
+        "category": "insight",
+        "profile": [
+          "hr-insight",
+          "hr-news"
+        ],
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Josh Bersin",
+        "url": "https://joshbersin.com/feed/",
+        "category": "insight",
+        "profile": "hr-insight",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Aptitude Research",
+        "url": "https://www.aptituderesearch.com/feed/",
+        "category": "insight",
+        "profile": "hr-insight",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Indeed Hiring Lab",
+        "url": "https://www.hiringlab.org/feed/",
+        "category": "insight",
+        "profile": "hr-insight",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Recruiting Brainfood",
+        "url": "https://recruitingbrainfood.substack.com/feed",
+        "category": "insight",
+        "profile": "hr-insight",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Harvard Business Review",
+        "url": "http://feeds.hbr.org/harvardbusiness",
+        "category": "insight",
+        "profile": "hr-insight",
+        "selection_threshold": 7.0
+      },
+      {
+        "name": "MIT Sloan Management Review",
+        "url": "https://sloanreview.mit.edu/feed/",
+        "category": "insight",
+        "profile": "hr-insight",
+        "selection_threshold": 7.0
+      }
+    ],
+    "twitter": {
+      "enabled": false
+    },
+    "google_news": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": false,
+      "channels": []
+    }
+  },
+  "collection": {
+    "time_window_hours": 24
+  },
+  "digest": {
+    "max_items": 20,
+    "profile_order": [
+      "hr-news",
+      "hr-policy",
+      "hr-insight"
+    ],
+    "category_groups": {},
+    "default_group": "other",
+    "default_group_limit": null
+  },
+  "webhook": {
+    "enabled": false,
+    "url_env": "HORIZON_WEBHOOK_URL",
+    "delivery": "summary",
+    "platform": "generic",
+    "layout": "markdown",
+    "languages": [
+      "ko"
+    ]
+  }
+}

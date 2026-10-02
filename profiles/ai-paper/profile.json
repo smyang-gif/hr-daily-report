@@ -1,0 +1,37 @@
+{
+  "id": "ai-paper",
+  "name": "AI Research Papers",
+  "display_names": {
+    "ko": "논문",
+    "zh": "AI 论文"
+  },
+  "match": "match.md",
+  "analysis": "analysis.md",
+  "content": {
+    "analysis_max_chars": 8000,
+    "enrichment_max_chars": 12000,
+    "sampling": "head-middle-tail"
+  },
+  "enrichment": {
+    "prompt": "enrichment.md",
+    "blocks": [
+      {
+        "id": "summary",
+        "type": "section",
+        "tools": [],
+        "primary": true
+      },
+      {
+        "id": "method",
+        "type": "section",
+        "tools": []
+      },
+      {
+        "id": "why_it_matters",
+        "type": "section",
+        "tools": ["web_search"],
+        "optional": true
+      }
+    ]
+  }
+}
